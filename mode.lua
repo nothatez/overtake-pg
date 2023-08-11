@@ -1,6 +1,6 @@
 
 
-local requiredSpeed = 95
+local requiredSpeed = 90
 local PBlink = 'http' .. 's://www.myinstants.com/media/sounds/holy-shit.mp3'
 
 local killingSpree = 'http' ..
@@ -36,7 +36,7 @@ local hasPlayedUnfriggenbelievable = false
 
 
 function script.prepare(dt)
-    return ac.getCarState(1).speedKmh > 60
+    return ac.getCarState(1).speedKmh > 50
 end
 
 local timePassed = 0
@@ -49,9 +49,9 @@ local dangerouslySlowTimer = 0
 local carsState = {}
 local wheelsWarningTimeout = 0
 local personalBest = 0
-local MackMessages = { 'MAAAACK!!!!', 'M A C K S A U C E', 'You Hesitated....', 'bRUH', 'No Shot...',
+local MackMessages = { 'hhwhat', 'get fucked', 'You Hesitated....', 'bRUH', 'what gap?',
     'Ain\'t no way you were makin that.' }
-local CloseMessages = { 'IN THAT!!!!! 3x', 'IN THERE. 3x', 'D I V E 3x', 'SKRRT!!! 3x' }
+local CloseMessages = { 'big og facts', 'chillin', 'vibin', 'coolin' }
 
 local uiCustomPos = vec2(0, 0)
 local uiMoveMode = false
