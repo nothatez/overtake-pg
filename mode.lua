@@ -50,7 +50,7 @@ local carsState = {}
 local wheelsWarningTimeout = 0
 local personalBest = 0
 local MackMessages = { 'you w0t?', 'yer nans nan', 'what gap?', 'bRUH', 'get fucked',
-    'Ain\'t no way you were makin that.' }
+    'bro pause' }
 local CloseMessages = { 'big og facts', 'chillin', 'vibin', 'coolin' }
 
 local uiCustomPos = vec2(0, 0)
