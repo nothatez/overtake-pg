@@ -1,6 +1,6 @@
 
 
-local requiredSpeed = 90
+local requiredSpeed = 80
 local PBlink = 'http' .. 's://www.myinstants.com/media/sounds/holy-shit.mp3'
 
 local killingSpree = 'http' ..
@@ -109,7 +109,7 @@ function script.update(dt)
 
     if timePassed == 0 then
         addMessage(ac.getCarName(0), 0)
-        addMessage('Made by Boon', 2)
+        addMessage('B to enable/LMB to move UI', 2)
         addMessage('CTRL + D to toggle UI', -1)
         addMessage('M to toggle sounds', -1)
         addMessage('Delete to re-orient car', -1)
