@@ -551,7 +551,7 @@ function script.drawUI()
 
         ui.pushStyleVar(ui.StyleVar.Alpha, 1 - speedWarning)
         ui.pushFont(ui.Font.Title)
-        ui.text('LGR\'')
+        ui.text('LGR\'Cut up')
         -- ui.sameLine(0, 20)
         ui.pushFont(ui.Font.Huge)
         ui.textColored('PB:' .. personalBest .. ' pts', colorCombo)
