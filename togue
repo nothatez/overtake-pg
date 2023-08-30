@@ -34,7 +34,7 @@ local hasPlayedUnfriggenbelievable = false
 
 
 function script.prepare(dt)
-    return ac.getCarState(1).speedKmh > 50
+    return ac.getCarState(1).speedKmh > 20
 end
 
 local timePassed = 0
